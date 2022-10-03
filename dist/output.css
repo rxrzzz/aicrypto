@@ -746,6 +746,14 @@ video {
   width: fit-content;
 }
 
+.w-7\/12 {
+  width: 58.333333%;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
 .max-w-xl {
   max-width: 36rem;
 }
@@ -930,6 +938,10 @@ video {
 
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-array {
