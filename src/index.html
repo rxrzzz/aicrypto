@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      ::-webkit-scrollbar {
+        height: 12px;
+        width: 7px;
+        background: black;
+      }
+
+      html,
+      body {
+        scroll-behavior: smooth;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #a855f7;
+      }
+    </style>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=khand@300,500,400,600&f[]=array@400,601,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body class="bg-black text-white">
+    <nav
+      class="flex text-white py-4 justify-between items-center font-array lg:px-30 md:px-20 px-8 xl:px-40 fixed left-0 right-0 top-0 z-10"
+    >
+      <a href="index.html"
+        ><img src="babycatgirl.jpeg" alt="" width="40px"
+      /></a>
+      <div class="hidden lg:block">
+        <a
+          href="#tokenomics"
+          class="mr-4 hover:text-black transition-colors duration-300"
+          >Tokenomics</a
+        >
+        <a
+          href="#roadmap"
+          class="transition-colors hover:text-black duration-300"
+          >Q1 Roadmap</a
+        >
+        <a
+          href="https://twitter.com/Aibaby_catgirl"
+          class="transition-colors hover:text-black ml-4 duration-300"
+          >Follow On Twitter</a
+        >
+
+        <a
+          href="https://t.me/CryptoMoonshots_Chat"
+          class="border border-white p-3 ml-4 bg-white text-black hover:bg-black hover:text-purple-500 transition-colors duration-300 hover:border-purple-500"
+          >Join on Telegram</a
+        >
+      </div>
+      <button class="font-array text-xl lg:hidden block" onclick="showMenu()">
+        MENU
+      </button>
+      <div class="fixed inset-0 bg-purple-500 hidden" id="mobile">
+        <button
+          class="font-bold font-array text-3xl mt-20 mb-10 w-fit ml-4"
+          id="close"
+          onclick="hideMenu()"
+        >
+          X
+        </button>
+        <div class="flex flex-col">
+          <a
+            href="#tokenomics"
+            onclick="hideMenu()"
+            class="mr-4 hover:text-black text-2xl ml-4 transition-colors duration-300 link"
+            >Tokenomics</a
+          >
+          <a
+            href="#roadmap"
+            onclick="hideMenu()"
+            class="transition-colors ml-4 hover:text-black text-2xl duration-300 link"
+            >Q1 Roadmap</a
+          >
+          <a
+            href="https://twitter.com/Aibaby_catgirl"
+            onclick="hideMenu()"
+            class="transition-colors hover:text-black text-2xl ml-4 duration-300 link"
+            >Follow On Twitter</a
+          >
+
+          <a
+            href="https://t.me/CryptoMoonshots_Chat"
+            onclick="hideMenu()"
+            class="transition-colors hover:text-black text-2xl ml-4 duration-300 link"
+            >Join on Telegram</a
+          >
+        </div>
+      </div>
+    </nav>
+    <main class="bg-purple-500 min-h-[70vh]">
+      <div class="xl:mx-40 lg:mx-30 md:mx-20 mx-8 pt-44 pb-8 md:w-3/4 lg:w-2/4">
+        <h1 class="xl:text-7xl lg:text-6xl md:text-5xl text-4xl font-array">
+          AI BABY CAT GIRL TOKEN.
+        </h1>
+        <h1
+          class="xl:text-2xl lg:text-xl md:text-lg text-md mt-2 mb-4 md:mb-6 xl:mb-8 font-khand opacity-90 max-w-[500px]"
+        >
+          We are the new meme coin generation with a long term vision. Come join
+          us as we launch a few days from now.
+        </h1>
+
+        <a
+          href="https://t.me/CryptoMoonshots_Chat"
+          class="font-array p-2 bg-black xl:text-3xl lg:text-2xl md:text-xl text-lg hover:text-purple-500 transition-colors duration-300"
+          >Join On Telegram</a
+        >
+      </div>
+    </main>
+    <section class="mt-20">
+      <div
+        class="xl:mx-40 lg:mx-30 md:mx-20 mx-8 lg:pt-30 md:pt-20 pt-20 pb-10 md:w-3/4 lg:w-2/4"
+      >
+        <h1 class="lg:text-4xl md:text-3xl text-2xl font-array max-w-[150px]">
+          <span class="bg-purple-500 p-1">Reliable</span> cryptocurrency info.
+        </h1>
+        <h2
+          class="font-khand mt-4 max-w-[400px] text-sm md:text-md lg:text-lg xl:text-xl"
+        >
+          We also drop reliable information about other cryptocurrencies on our
+          channel.
+        </h2>
+      </div>
+    </section>
+    <section class="mt-20 bg-purple-500">
+      <div
+        class="xl:mx-40 lg:mx-30 md:mx-20 mx-8 lg:pt-30 py-20"
+        id="tokenomics"
+      >
+        <h1
+          class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-array underline"
+        >
+          TOKENOMICS
+        </h1>
+        <div class="flex justify-between flex-wrap">
+          <div
+            class="my-8 text-md md:text-lg lg:text-xl xl:tex-2xl w-full lg:w-6/12"
+          >
+            <h2 class="font-khand my-4">
+              <span class="bg-white text-purple-500 p-1 font-array mr-2"
+                >50%</span
+              >liquidity
+            </h2>
+            <h2 class="font-khand my-4">
+              <span class="bg-white text-purple-500 p-1 font-array mr-2"
+                >20%</span
+              >marketing
+            </h2>
+            <h2 class="font-khand my-4">
+              <span class="bg-white text-purple-500 p-1 font-array mr-2"
+                >20%</span
+              >project development
+            </h2>
+            <h2 class="font-khand my-4">
+              <span class="bg-white text-purple-500 p-1 font-array mr-2"
+                >10%</span
+              >team
+            </h2>
+          </div>
+          <img
+            src="coin-svgrepo-com (1).svg"
+            class="w-9/12 mx-auto lg:w-5/12"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="mt-20">
+      <div class="xl:mx-40 lg:mx-30 md:mx-20 mx-8 pt-10" id="roadmap">
+        <h1
+          class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-array underline text-purple-500"
+        >
+          Q1 ROADMAP
+        </h1>
+        <div class="my-8 flex flex-wrap justify-between">
+          <ul
+            class="ml-8 text-md md:text-lg lg:text-xl xl:tex-2xl w-full md:w-6/12"
+          >
+            <li class="list-disc font-khand my-4">Socials setup.</li>
+
+            <li class="list-disc font-khand my-4">V2 website design.</li>
+            <li class="list-disc font-khand my-4">Token creation</li>
+            <li class="list-disc font-khand my-4">Pancake swap launch</li>
+            <li class="list-disc font-khand my-4">Marketing</li>
+            <li class="list-disc font-khand my-4">CG and OMC testing</li>
+          </ul>
+          <img
+            src="coin-svgrepo-com.svg"
+            class="invert border md:w-5/12 md:mt-0 mt-10 w-9/12 mx-auto"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="mt-20 bg-purple-500">
+      <div class="py-32 flex justify-between flex-wrap">
+        <h1
+          class="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-array lg:w-3/12 w-9/12 mx-auto"
+        >
+          There is a lot more to explore. Join our
+          <a
+            href="#"
+            class="bg-black p-1 hover:text-purple-500 transition-colors duration-300"
+            >channel</a
+          >
+          for more info. You can also follow us on
+          <a
+            href="https://twitter.com/Aibaby_catgirl"
+            class="bg-black p-1 hover:text-purple-500 transition-colors duration-300"
+            >twitter.</a
+          >
+        </h1>
+        <a href="index.html">
+          <img
+            src="babycatgirl.jpeg"
+            alt=""
+            class="object-cover lg:w-4/12 mx-auto w-9/12 max-w-[300px] mt-10 lg:mt-0"
+          />
+        </a>
+      </div>
+    </section>
+    <script>
+      const menu = document.getElementById("mobile");
+      const close = document.getElementById("close");
+      const links = document.getElementsByClassName("link");
+
+      //   links.forEach((link) => {
+      //     link.addEventListener("click", () => {
+      //       menu.classList.add("hidden");
+      //     });
+      //   });
+      const hideMenu = () => {
+        menu.classList.add("hidden");
+      };
+
+      const showMenu = () => {
+        menu.classList.remove("hidden");
+      };
+
+      console.log(button);
+    </script>
+  </body>
+</html>
