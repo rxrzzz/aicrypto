@@ -728,6 +728,11 @@ video {
   background-color: rgb(168 85 247 / var(--tw-bg-opacity));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -758,6 +763,11 @@ video {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .pt-44 {
@@ -824,10 +834,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.capitalize {
-  text-transform: capitalize;
 }
 
 .text-white {
